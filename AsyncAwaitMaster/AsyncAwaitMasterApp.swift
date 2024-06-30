@@ -7,26 +7,34 @@
 
 import SwiftUI
 import SwiftData
+import WhatsNewKit
 
 @main
 struct AsyncAwaitMasterApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+    
+    /// Declare your WhatsNew instances per version
+    var whatsNewCollection: WhatsNewCollection {
+        [
+            WhatsNew(
+                version: "1.0.0",
+                title: "Welcome to AsyncAwaitDemo",
+                features: [
+                    WhatsNew.Feature(image: WhatsNew.Feature.Image(systemName: "clock"), title: "View async await demos", subtitle: "Browse into sections with explanations")
+                ]
+            )
+        ]
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LessonView()
+                .environment(
+                    \.whatsNew,
+                     WhatsNewEnvironment(
+                        versionStore: UserDefaultsWhatsNewVersionStore(),
+                        whatsNewCollection: self.whatsNewCollection
+                     )
+                )
         }
-        .modelContainer(sharedModelContainer)
     }
 }

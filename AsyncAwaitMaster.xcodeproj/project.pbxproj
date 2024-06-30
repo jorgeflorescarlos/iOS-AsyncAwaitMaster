@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CFDB25FD2C31C6650002AC87 /* AsyncAwaitMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB25FC2C31C6650002AC87 /* AsyncAwaitMasterApp.swift */; };
-		CFDB25FF2C31C6650002AC87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB25FE2C31C6650002AC87 /* ContentView.swift */; };
-		CFDB26012C31C6650002AC87 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26002C31C6650002AC87 /* Item.swift */; };
+		CFDB25FF2C31C6650002AC87 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB25FE2C31C6650002AC87 /* LessonView.swift */; };
 		CFDB26032C31C6660002AC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDB26022C31C6660002AC87 /* Assets.xcassets */; };
 		CFDB26062C31C6660002AC87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDB26052C31C6660002AC87 /* Preview Assets.xcassets */; };
 		CFDB26102C31C6660002AC87 /* AsyncAwaitMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB260F2C31C6660002AC87 /* AsyncAwaitMasterTests.swift */; };
 		CFDB261A2C31C6660002AC87 /* AsyncAwaitMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26192C31C6660002AC87 /* AsyncAwaitMasterUITests.swift */; };
 		CFDB261C2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB261B2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift */; };
+		CFDB262A2C31C7450002AC87 /* WhatsNewKit in Frameworks */ = {isa = PBXBuildFile; productRef = CFDB26292C31C7450002AC87 /* WhatsNewKit */; };
+		CFDB262C2C31C7CA0002AC87 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB262B2C31C7CA0002AC87 /* Lesson.swift */; };
+		CFDB26322C31CBC70002AC87 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26312C31CBC70002AC87 /* LessonViewModel.swift */; };
+		CFDB26342C31CCB10002AC87 /* LessonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26332C31CCB10002AC87 /* LessonStore.swift */; };
+		CFDB26362C31D3040002AC87 /* LessonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26352C31D3040002AC87 /* LessonDetails.swift */; };
+		CFDB26392C31DFFF0002AC87 /* DemoDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26382C31DFFF0002AC87 /* DemoDatesView.swift */; };
+		CFDB263C2C31EB460002AC87 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB263B2C31EB460002AC87 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +43,7 @@
 /* Begin PBXFileReference section */
 		CFDB25F92C31C6650002AC87 /* AsyncAwaitMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDB25FC2C31C6650002AC87 /* AsyncAwaitMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitMasterApp.swift; sourceTree = "<group>"; };
-		CFDB25FE2C31C6650002AC87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CFDB26002C31C6650002AC87 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CFDB25FE2C31C6650002AC87 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
 		CFDB26022C31C6660002AC87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFDB26052C31C6660002AC87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFDB260B2C31C6660002AC87 /* AsyncAwaitMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +51,12 @@
 		CFDB26152C31C6660002AC87 /* AsyncAwaitMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDB26192C31C6660002AC87 /* AsyncAwaitMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitMasterUITests.swift; sourceTree = "<group>"; };
 		CFDB261B2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFDB262B2C31C7CA0002AC87 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		CFDB26312C31CBC70002AC87 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
+		CFDB26332C31CCB10002AC87 /* LessonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonStore.swift; sourceTree = "<group>"; };
+		CFDB26352C31D3040002AC87 /* LessonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetails.swift; sourceTree = "<group>"; };
+		CFDB26382C31DFFF0002AC87 /* DemoDatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDatesView.swift; sourceTree = "<group>"; };
+		CFDB263B2C31EB460002AC87 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDB262A2C31C7450002AC87 /* WhatsNewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +108,9 @@
 		CFDB25FB2C31C6650002AC87 /* AsyncAwaitMaster */ = {
 			isa = PBXGroup;
 			children = (
+				CFDB263A2C31EB360002AC87 /* Services */,
+				CFDB26302C31CB690002AC87 /* Lessons */,
 				CFDB25FC2C31C6650002AC87 /* AsyncAwaitMasterApp.swift */,
-				CFDB25FE2C31C6650002AC87 /* ContentView.swift */,
-				CFDB26002C31C6650002AC87 /* Item.swift */,
 				CFDB26022C31C6660002AC87 /* Assets.xcassets */,
 				CFDB26042C31C6660002AC87 /* Preview Content */,
 			);
@@ -130,6 +142,35 @@
 			path = AsyncAwaitMasterUITests;
 			sourceTree = "<group>";
 		};
+		CFDB26302C31CB690002AC87 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB26372C31DFE60002AC87 /* Demos */,
+				CFDB262B2C31C7CA0002AC87 /* Lesson.swift */,
+				CFDB25FE2C31C6650002AC87 /* LessonView.swift */,
+				CFDB26312C31CBC70002AC87 /* LessonViewModel.swift */,
+				CFDB26332C31CCB10002AC87 /* LessonStore.swift */,
+				CFDB26352C31D3040002AC87 /* LessonDetails.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		CFDB26372C31DFE60002AC87 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB26382C31DFFF0002AC87 /* DemoDatesView.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		CFDB263A2C31EB360002AC87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB263B2C31EB460002AC87 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +187,9 @@
 			dependencies = (
 			);
 			name = AsyncAwaitMaster;
+			packageProductDependencies = (
+				CFDB26292C31C7450002AC87 /* WhatsNewKit */,
+			);
 			productName = AsyncAwaitMaster;
 			productReference = CFDB25F92C31C6650002AC87 /* AsyncAwaitMaster.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +262,9 @@
 				Base,
 			);
 			mainGroup = CFDB25F02C31C6650002AC87;
+			packageReferences = (
+				CFDB26282C31C7450002AC87 /* XCRemoteSwiftPackageReference "WhatsNewKit" */,
+			);
 			productRefGroup = CFDB25FA2C31C6650002AC87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDB25FF2C31C6650002AC87 /* ContentView.swift in Sources */,
-				CFDB26012C31C6650002AC87 /* Item.swift in Sources */,
+				CFDB26322C31CBC70002AC87 /* LessonViewModel.swift in Sources */,
+				CFDB262C2C31C7CA0002AC87 /* Lesson.swift in Sources */,
+				CFDB263C2C31EB460002AC87 /* WebService.swift in Sources */,
+				CFDB26362C31D3040002AC87 /* LessonDetails.swift in Sources */,
+				CFDB26392C31DFFF0002AC87 /* DemoDatesView.swift in Sources */,
+				CFDB25FF2C31C6650002AC87 /* LessonView.swift in Sources */,
 				CFDB25FD2C31C6650002AC87 /* AsyncAwaitMasterApp.swift in Sources */,
+				CFDB26342C31CCB10002AC87 /* LessonStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +638,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFDB26282C31C7450002AC87 /* XCRemoteSwiftPackageReference "WhatsNewKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/WhatsNewKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFDB26292C31C7450002AC87 /* WhatsNewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFDB26282C31C7450002AC87 /* XCRemoteSwiftPackageReference "WhatsNewKit" */;
+			productName = WhatsNewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFDB25F12C31C6650002AC87 /* Project object */;
 }
