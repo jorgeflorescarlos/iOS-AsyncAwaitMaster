@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFDB25FD2C31C6650002AC87 /* AsyncAwaitMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB25FC2C31C6650002AC87 /* AsyncAwaitMasterApp.swift */; };
+		CFDB25FF2C31C6650002AC87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB25FE2C31C6650002AC87 /* ContentView.swift */; };
+		CFDB26012C31C6650002AC87 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26002C31C6650002AC87 /* Item.swift */; };
+		CFDB26032C31C6660002AC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDB26022C31C6660002AC87 /* Assets.xcassets */; };
+		CFDB26062C31C6660002AC87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDB26052C31C6660002AC87 /* Preview Assets.xcassets */; };
+		CFDB26102C31C6660002AC87 /* AsyncAwaitMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB260F2C31C6660002AC87 /* AsyncAwaitMasterTests.swift */; };
+		CFDB261A2C31C6660002AC87 /* AsyncAwaitMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB26192C31C6660002AC87 /* AsyncAwaitMasterUITests.swift */; };
+		CFDB261C2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB261B2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFDB260C2C31C6660002AC87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDB25F12C31C6650002AC87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDB25F82C31C6650002AC87;
+			remoteInfo = AsyncAwaitMaster;
+		};
+		CFDB26162C31C6660002AC87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDB25F12C31C6650002AC87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDB25F82C31C6650002AC87;
+			remoteInfo = AsyncAwaitMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFDB25F92C31C6650002AC87 /* AsyncAwaitMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB25FC2C31C6650002AC87 /* AsyncAwaitMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitMasterApp.swift; sourceTree = "<group>"; };
+		CFDB25FE2C31C6650002AC87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFDB26002C31C6650002AC87 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CFDB26022C31C6660002AC87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDB26052C31C6660002AC87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFDB260B2C31C6660002AC87 /* AsyncAwaitMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB260F2C31C6660002AC87 /* AsyncAwaitMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitMasterTests.swift; sourceTree = "<group>"; };
+		CFDB26152C31C6660002AC87 /* AsyncAwaitMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB26192C31C6660002AC87 /* AsyncAwaitMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitMasterUITests.swift; sourceTree = "<group>"; };
+		CFDB261B2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDB25F62C31C6650002AC87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB26082C31C6660002AC87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB26122C31C6660002AC87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFDB25F02C31C6650002AC87 = {
+			isa = PBXGroup;
+			children = (
+				CFDB25FB2C31C6650002AC87 /* AsyncAwaitMaster */,
+				CFDB260E2C31C6660002AC87 /* AsyncAwaitMasterTests */,
+				CFDB26182C31C6660002AC87 /* AsyncAwaitMasterUITests */,
+				CFDB25FA2C31C6650002AC87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDB25FA2C31C6650002AC87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB25F92C31C6650002AC87 /* AsyncAwaitMaster.app */,
+				CFDB260B2C31C6660002AC87 /* AsyncAwaitMasterTests.xctest */,
+				CFDB26152C31C6660002AC87 /* AsyncAwaitMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDB25FB2C31C6650002AC87 /* AsyncAwaitMaster */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB25FC2C31C6650002AC87 /* AsyncAwaitMasterApp.swift */,
+				CFDB25FE2C31C6650002AC87 /* ContentView.swift */,
+				CFDB26002C31C6650002AC87 /* Item.swift */,
+				CFDB26022C31C6660002AC87 /* Assets.xcassets */,
+				CFDB26042C31C6660002AC87 /* Preview Content */,
+			);
+			path = AsyncAwaitMaster;
+			sourceTree = "<group>";
+		};
+		CFDB26042C31C6660002AC87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB26052C31C6660002AC87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFDB260E2C31C6660002AC87 /* AsyncAwaitMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB260F2C31C6660002AC87 /* AsyncAwaitMasterTests.swift */,
+			);
+			path = AsyncAwaitMasterTests;
+			sourceTree = "<group>";
+		};
+		CFDB26182C31C6660002AC87 /* AsyncAwaitMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB26192C31C6660002AC87 /* AsyncAwaitMasterUITests.swift */,
+				CFDB261B2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift */,
+			);
+			path = AsyncAwaitMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFDB25F82C31C6650002AC87 /* AsyncAwaitMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDB261F2C31C6660002AC87 /* Build configuration list for PBXNativeTarget "AsyncAwaitMaster" */;
+			buildPhases = (
+				CFDB25F52C31C6650002AC87 /* Sources */,
+				CFDB25F62C31C6650002AC87 /* Frameworks */,
+				CFDB25F72C31C6650002AC87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncAwaitMaster;
+			productName = AsyncAwaitMaster;
+			productReference = CFDB25F92C31C6650002AC87 /* AsyncAwaitMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDB260A2C31C6660002AC87 /* AsyncAwaitMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDB26222C31C6660002AC87 /* Build configuration list for PBXNativeTarget "AsyncAwaitMasterTests" */;
+			buildPhases = (
+				CFDB26072C31C6660002AC87 /* Sources */,
+				CFDB26082C31C6660002AC87 /* Frameworks */,
+				CFDB26092C31C6660002AC87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDB260D2C31C6660002AC87 /* PBXTargetDependency */,
+			);
+			name = AsyncAwaitMasterTests;
+			productName = AsyncAwaitMasterTests;
+			productReference = CFDB260B2C31C6660002AC87 /* AsyncAwaitMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDB26142C31C6660002AC87 /* AsyncAwaitMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDB26252C31C6660002AC87 /* Build configuration list for PBXNativeTarget "AsyncAwaitMasterUITests" */;
+			buildPhases = (
+				CFDB26112C31C6660002AC87 /* Sources */,
+				CFDB26122C31C6660002AC87 /* Frameworks */,
+				CFDB26132C31C6660002AC87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDB26172C31C6660002AC87 /* PBXTargetDependency */,
+			);
+			name = AsyncAwaitMasterUITests;
+			productName = AsyncAwaitMasterUITests;
+			productReference = CFDB26152C31C6660002AC87 /* AsyncAwaitMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDB25F12C31C6650002AC87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CFDB25F82C31C6650002AC87 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CFDB260A2C31C6660002AC87 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CFDB25F82C31C6650002AC87;
+					};
+					CFDB26142C31C6660002AC87 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CFDB25F82C31C6650002AC87;
+					};
+				};
+			};
+			buildConfigurationList = CFDB25F42C31C6650002AC87 /* Build configuration list for PBXProject "AsyncAwaitMaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDB25F02C31C6650002AC87;
+			productRefGroup = CFDB25FA2C31C6650002AC87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDB25F82C31C6650002AC87 /* AsyncAwaitMaster */,
+				CFDB260A2C31C6660002AC87 /* AsyncAwaitMasterTests */,
+				CFDB26142C31C6660002AC87 /* AsyncAwaitMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDB25F72C31C6650002AC87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB26062C31C6660002AC87 /* Preview Assets.xcassets in Resources */,
+				CFDB26032C31C6660002AC87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB26092C31C6660002AC87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB26132C31C6660002AC87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDB25F52C31C6650002AC87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB25FF2C31C6650002AC87 /* ContentView.swift in Sources */,
+				CFDB26012C31C6650002AC87 /* Item.swift in Sources */,
+				CFDB25FD2C31C6650002AC87 /* AsyncAwaitMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB26072C31C6660002AC87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB26102C31C6660002AC87 /* AsyncAwaitMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB26112C31C6660002AC87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB261C2C31C6660002AC87 /* AsyncAwaitMasterUITestsLaunchTests.swift in Sources */,
+				CFDB261A2C31C6660002AC87 /* AsyncAwaitMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFDB260D2C31C6660002AC87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDB25F82C31C6650002AC87 /* AsyncAwaitMaster */;
+			targetProxy = CFDB260C2C31C6660002AC87 /* PBXContainerItemProxy */;
+		};
+		CFDB26172C31C6660002AC87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDB25F82C31C6650002AC87 /* AsyncAwaitMaster */;
+			targetProxy = CFDB26162C31C6660002AC87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFDB261D2C31C6660002AC87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFDB261E2C31C6660002AC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDB26202C31C6660002AC87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsyncAwaitMaster/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asyncawait.AsyncAwaitMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFDB26212C31C6660002AC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsyncAwaitMaster/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asyncawait.AsyncAwaitMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFDB26232C31C6660002AC87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asyncawait.AsyncAwaitMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncAwaitMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncAwaitMaster";
+			};
+			name = Debug;
+		};
+		CFDB26242C31C6660002AC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asyncawait.AsyncAwaitMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncAwaitMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncAwaitMaster";
+			};
+			name = Release;
+		};
+		CFDB26262C31C6660002AC87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asyncawait.AsyncAwaitMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsyncAwaitMaster;
+			};
+			name = Debug;
+		};
+		CFDB26272C31C6660002AC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asyncawait.AsyncAwaitMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsyncAwaitMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDB25F42C31C6650002AC87 /* Build configuration list for PBXProject "AsyncAwaitMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDB261D2C31C6660002AC87 /* Debug */,
+				CFDB261E2C31C6660002AC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDB261F2C31C6660002AC87 /* Build configuration list for PBXNativeTarget "AsyncAwaitMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDB26202C31C6660002AC87 /* Debug */,
+				CFDB26212C31C6660002AC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDB26222C31C6660002AC87 /* Build configuration list for PBXNativeTarget "AsyncAwaitMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDB26232C31C6660002AC87 /* Debug */,
+				CFDB26242C31C6660002AC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDB26252C31C6660002AC87 /* Build configuration list for PBXNativeTarget "AsyncAwaitMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDB26262C31C6660002AC87 /* Debug */,
+				CFDB26272C31C6660002AC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFDB25F12C31C6650002AC87 /* Project object */;
+}
