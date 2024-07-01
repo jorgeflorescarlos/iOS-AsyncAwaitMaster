@@ -8,7 +8,7 @@
 import Foundation
 
 enum Lesson: Identifiable, Hashable, CaseIterable {
-    case datesDemo, continuation, newsDemo, structuredConcurrency, randomImagesDemo, asyncSequence, concurrentProgramming, actors
+    case datesDemo, newsDemo, randomImagesDemo, concurrentProgramming, actors
     
     var id: UUID {
         return UUID()
@@ -18,20 +18,14 @@ enum Lesson: Identifiable, Hashable, CaseIterable {
         switch self {
         case .datesDemo:
             return "Handling Dates Demo"
-        case .continuation:
-            return "Continuation"
         case .newsDemo:
             return "News Demo"
-        case .structuredConcurrency:
-            return "Structured Concurrency Demo"
         case .randomImagesDemo:
-            return "Renadom Images Demo"
-        case .asyncSequence:
-            return "Async sequence Demo"
+            return "Random Images with Quotes Demo"
         case .concurrentProgramming:
-            return "concurrent Programing Demo"
+            return "Concurrent ToDo List"
         case .actors:
-            return "Actors Demo"
+            return "Bank Account Demo"
         }
     }
     
@@ -39,20 +33,14 @@ enum Lesson: Identifiable, Hashable, CaseIterable {
         switch self {
         case .datesDemo:
             return "calendar"
-        case .continuation:
-            return "arrowshape.bounce.forward"
         case .newsDemo:
             return "newspaper"
-        case .structuredConcurrency:
-            return "arrow.triangle.turn.up.right.circle"
         case .randomImagesDemo:
-            return "arrow.triangle.turn.up.right.circle"
-        case .asyncSequence:
-            return "arrow.triangle.turn.up.right.circle"
+            return "text.below.photo"
         case .concurrentProgramming:
-            return "arrow.triangle.turn.up.right.circle"
+            return "checklist.unchecked"
         case .actors:
-            return "arrow.triangle.turn.up.right.circle"
+            return "banknote"
         }
     }
     

@@ -12,7 +12,6 @@ import WhatsNewKit
 @main
 struct AsyncAwaitMasterApp: App {
     
-    /// Declare your WhatsNew instances per version
     var whatsNewCollection: WhatsNewCollection {
         [
             WhatsNew(

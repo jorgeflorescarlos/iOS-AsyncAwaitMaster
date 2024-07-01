@@ -15,20 +15,14 @@ struct LessonDetailsView: View {
         switch lesson {
         case .datesDemo:
             DemoDatesView()
-        case .continuation:
-            Text(lesson.name)
         case .newsDemo:
-            Text(lesson.name)
-        case .structuredConcurrency:
-            Text(lesson.name)
+            DemoNewsSourceListView()
         case .randomImagesDemo:
-            Text(lesson.name)
-        case .asyncSequence:
-            Text(lesson.name)
+            RandomQuotesAndImagesView()
         case .concurrentProgramming:
-            Text(lesson.name)
+            TodoListView()
         case .actors:
-            Text(lesson.name)
+            BankAccountView()
         }
     }
 }
