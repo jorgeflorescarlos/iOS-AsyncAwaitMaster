@@ -18,7 +18,8 @@ struct AsyncAwaitMasterApp: App {
                 version: "1.0.0",
                 title: "Welcome to AsyncAwaitDemo",
                 features: [
-                    WhatsNew.Feature(image: WhatsNew.Feature.Image(systemName: "clock"), title: "View async await demos", subtitle: "Browse into sections with explanations")
+                    WhatsNew.Feature(image: WhatsNew.Feature.Image(systemName: "clock"), title: "View async/await demos", subtitle: "Browse into sections with explanations"),
+                    WhatsNew.Feature(image: WhatsNew.Feature.Image(systemName: "medal"), title: "Get inspiration", subtitle: "Try this implementations in your own apps")
                 ]
             )
         ]
