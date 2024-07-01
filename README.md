@@ -26,9 +26,11 @@ This app is designed to showcase various features of concurrency in Swift, inclu
 Simply clone this app, open in Xcode and sync the dependencies via Swift Package Manager.
 
 ### How to use the App
-1.- Navigate into the sections
-2.- You can see the goal and explanation of each demo
-3.- The NewsDemo page requires an apiKey for the news service. You can get one in <a href="https://newsapi.org/register">https://newsapi.org/register</a>
+1 - Navigate into the sections
+
+2 - You can see the goal and explanation of each demo
+
+3 - The NewsDemo page requires an apiKey for the news service. You can get one in <a href="https://newsapi.org/register">https://newsapi.org/register</a>
 
 ## Contributing
 If you have any suggestions or improvements, feel free to create a pull request or open an issue. Contributions are always welcome!
